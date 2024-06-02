@@ -1,0 +1,52 @@
+.main_container {
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_text h1 {
+    font-family: "Al Bayan", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+.main_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.me {
+    width: 150px;
+    height: 140px;
+}
+
+.sun {
+  width: 150px;
+  height: 150px;
+  background: yellow;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
